@@ -6,6 +6,10 @@
   - Feature scaling
   - Taking care of missing values
   - Encoding categorical data
+- Simple linear regression
+- Multiple linear regression
+- Polynomial regression
+- Support Vector REgression
 
 ### Tech used
 - Python
