@@ -9,7 +9,10 @@
 - Simple linear regression
 - Multiple linear regression
 - Polynomial regression
-- Support Vector REgression
+- Support Vector Regression
+- Decision trees
+- Random forest regression
+- Evaluation using R^2
 
 ### Tech used
 - Python
@@ -17,6 +20,9 @@
   - Numpy
   - Matplotlib
   - ScikitLearn
+      - preprocessing
+      - imputer
+      - tree
 - Google Colab
 
 
