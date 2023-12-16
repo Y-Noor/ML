@@ -1,11 +1,12 @@
 # Documentation of my ML journey 
 ## Machine Learning from A - Z course by Kirill Eremenko and Hadelin de Ponteves
 ### Topics covered so far:
-- Data preprocessing
-  - Splitting dataset for testing and training
-  - Feature scaling
-  - Taking care of missing values
-  - Encoding categorical data
+#### Data preprocessing
+- Splitting dataset for testing and training
+- Feature scaling
+- Taking care of missing values
+- Encoding categorical data
+#### Regression
 - Simple linear regression
 - Multiple linear regression
 - Polynomial regression
@@ -13,7 +14,7 @@
 - Decision trees
 - Random forest regression
 - Evaluation using R^2
-
+#### Classification
 ### Tech used
 - Python
   - Pandas
