@@ -15,6 +15,8 @@
 - Random forest regression
 - Evaluation using R^2
 #### Classification
+- Logistic regression
+
 ### Tech used
 - Python
   - Pandas
