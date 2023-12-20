@@ -16,6 +16,7 @@
 - Evaluation using R^2
 #### Classification
 - Logistic regression
+- heje
 
 ### Tech used
 - Python
