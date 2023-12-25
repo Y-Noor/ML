@@ -16,7 +16,10 @@
 - Evaluation using R^2
 #### Classification
 - Logistic regression
-- heje
+- K Nearest Neighbor (KNN)
+- Support Vector Machine (SVM)
+- Kernel SVM
+- Naive Bayes
 
 ### Tech used
 - Python
