@@ -23,6 +23,12 @@
 - Decision trees
 - Random forest
 
+#### Clustering
+- Kmeans
+- K++
+
+
+
 ### Tech used
 - Python
   - Pandas
