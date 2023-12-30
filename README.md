@@ -20,6 +20,8 @@
 - Support Vector Machine (SVM)
 - Kernel SVM
 - Naive Bayes
+- Decision trees
+- Random forest
 
 ### Tech used
 - Python
