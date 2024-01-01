@@ -26,6 +26,7 @@
 #### Clustering
 - Kmeans
 - K++
+- Hierarchical Clustering
 
 
 
