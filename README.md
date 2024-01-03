@@ -28,6 +28,8 @@
 - K++
 - Hierarchical Clustering
 
+#### Association Rule learning
+- Apriori
 
 
 ### Tech used
