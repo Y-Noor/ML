@@ -30,6 +30,7 @@
 
 #### Association Rule learning
 - Apriori
+- Eclat
 
 
 ### Tech used
