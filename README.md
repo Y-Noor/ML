@@ -32,6 +32,8 @@
 - Apriori
 - Eclat
 
+#### Reinforcement Learner
+- Upper Confidence Bound
 
 ### Tech used
 - Python
