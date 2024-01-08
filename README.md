@@ -34,6 +34,7 @@
 
 #### Reinforcement Learner
 - Upper Confidence Bound
+- Thompson sampling
 
 ### Tech used
 - Python
