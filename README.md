@@ -36,6 +36,9 @@
 - Upper Confidence Bound
 - Thompson sampling
 
+#### Natural Language Processing
+
+
 ### Tech used
 - Python
   - Pandas
