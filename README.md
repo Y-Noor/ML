@@ -38,6 +38,7 @@
 
 #### Natural Language Processing
 
+#### Deep learning
 
 ### Tech used
 - Python
