@@ -40,8 +40,8 @@
 - Bag of words model
 
 #### Deep learning
-- ANN
-  
+- Artificial Neural Network (ANN)
+- Convolution Neural Networks (CNN)
 
 ### Tech used
 - Python
