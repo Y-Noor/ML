@@ -53,8 +53,8 @@
       - imputer
       - tree
 - NLTK
+- Tensorflow
 - Google Colab
-- 
 
 
 ### Notes
