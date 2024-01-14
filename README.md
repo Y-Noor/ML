@@ -37,9 +37,11 @@
 - Thompson sampling
 
 #### Natural Language Processing
+- Bag of words model
 
 #### Deep learning
 - ANN
+  
 
 ### Tech used
 - Python
