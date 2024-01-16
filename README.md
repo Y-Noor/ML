@@ -54,6 +54,7 @@
       - tree
 - NLTK
 - Tensorflow
+- Keras
 - Google Colab
 
 
