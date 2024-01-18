@@ -43,6 +43,10 @@
 - Artificial Neural Network (ANN)
 - Convolution Neural Networks (CNN)
 
+#### Dimensionality reduction
+- Principle Component Analysis (PCA)
+- Linear Discriminant Analysis (LDA)
+
 ### Tech used
 - Python
   - Pandas
