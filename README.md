@@ -47,6 +47,10 @@
 - Principle Component Analysis (PCA)
 - Linear Discriminant Analysis (LDA)
 
+#### Model Selection 
+- K-fold cross validation
+- Grid search
+
 ### Tech used
 - Python
   - Pandas
