@@ -51,6 +51,8 @@
 - K-fold cross validation
 - Grid search
 
+#### XGBoost
+
 ### Tech used
 - Python
   - Pandas
