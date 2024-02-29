@@ -135,3 +135,12 @@ The Nearest Neighbor Classifier may sometimes be a good choice in some settings 
 Additional reading: 
 - [A Few Useful Things to Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 - [Recognizing and Learning Object Categories](https://people.csail.mit.edu/torralba/shortCourseRLOC/index.html)
+
+## Parameterized mapping from images to label scores
+### Linear classifier
+**Image data preprocessing**
+## Loss function
+### Multiclass Support Vector Machine loss
+### Softmax classifier
+
+[Interactive web demo](http://vision.stanford.edu/teaching/cs231n-demos/linear-classify/)
