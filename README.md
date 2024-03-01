@@ -136,8 +136,22 @@ Additional reading:
 - [A Few Useful Things to Know About Machine Learning](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
 - [Recognizing and Learning Object Categories](https://people.csail.mit.edu/torralba/shortCourseRLOC/index.html)
 
+
+We are now going to develop a more powerful approach to image classification that we will eventually naturally extend to entire Neural Networks and Convolutional Neural Networks. The approach will have two major components: a **score function** that maps the raw data to class scores, and a **loss function** that quantifies the agreement between the predicted scores and the ground truth labels. We will then cast this as an optimization problem in which we will minimize the loss function with respect to the parameters of the score function.
+
 ## Parameterized mapping from images to label scores
+The first component of this approach is to define the score function that maps the pixel values of an image to confidence scores for each class.
+
 ### Linear classifier
+We will start out with arguably the simplest possible function, a linear mapping:
+![Alt text](image.png)
+
+In the above equation, we are assuming that the image xi
+ has all of its pixels flattened out to a single column vector of shape [D x 1]. The matrix W (of size [K x D]), and the vector b (of size [K x 1]) are the parameters of the function. In CIFAR-10, xi
+ contains all pixels in the i-th image flattened into a single [3072 x 1] column, W is [10 x 3072] and b is [10 x 1], so 3072 numbers come into the function (the raw pixel values) and 10 numbers come out (the class scores). The parameters in W are often called the weights, and b is called the bias vector because it influences the output scores, but without interacting with the actual data xi
+. However, you will often hear people use the terms weights and parameters interchangeably.
+
+
 **Image data preprocessing**
 ## Loss function
 ### Multiclass Support Vector Machine loss
