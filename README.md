@@ -191,7 +191,23 @@ In other words, we wish to encode some preference for a certain set of weights W
 In the expression above, we are summing up all the squared elements of W. Notice that the regularization function is not a function of the data, it is only based on the weights. Including the regularization penalty completes the full Multiclass Support Vector Machine loss, which is made up of two components: the data loss (which is the average loss Li over all examples) and the regularization loss. That is, the full Multiclass SVM loss becomes:
 ![Alt text](image-4.png)
 
-- More in the lecture - 
+========== More in the lecture ========== 
 ### Softmax classifier
+The other popular choice for classifier is the Softmax classifier, which has a different loss function.
 
+Softmax classifier is the generalization of the binary Logistic Regression classifier to multiple classes
+
+Unlike the SVM which treats the outputs f(x~i~,W) as (uncalibrated and possibly difficult to interpret) scores for each class, the Softmax classifier gives a slightly more intuitive output (normalized class probabilities) and also has a probabilistic interpretation that we will describe shortly. In the Softmax classifier, the function mapping f(x~i~;W)=Wx~i~ stays unchanged, but we now interpret these scores as the unnormalized log probabilities for each class and replace the hinge loss with a cross-entropy loss that has the form:
+![Alt text](image-5.png)
+where we are using the notation f~j~ to mean the j-th element of the vector of class scores f.
+
+As before, the full loss for the dataset is the mean of L~i~ over all training examples together with a regularization term R(W). The function ![Alt text](image-6.png)   is called the softmax function: It takes a vector of arbitrary real-valued scores (in z
+) and squashes it to a vector of values between zero and one that sum to one.
+The Softmax classifier is hence minimizing the cross-entropy between the estimated class probabilities 
+
+![Alt text](image-7.png)
+
+![Alt text](image-8.png)
+
+========== more inlecture ==========
 [Interactive web demo](http://vision.stanford.edu/teaching/cs231n-demos/linear-classify/)
