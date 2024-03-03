@@ -211,3 +211,12 @@ The Softmax classifier is hence minimizing the cross-entropy between the estimat
 
 ========== more inlecture ==========
 [Interactive web demo](http://vision.stanford.edu/teaching/cs231n-demos/linear-classify/)
+
+
+### Backpropagation
+
+### Modularity: Sigmoid example
+
+### Patterns in backward flow
+
+### Gradients for vectorized operations
