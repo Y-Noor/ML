@@ -215,8 +215,24 @@ The Softmax classifier is hence minimizing the cross-entropy between the estimat
 
 ### Backpropagation
 
+
+### Neural networks
+
 ### Modularity: Sigmoid example
 
 ### Patterns in backward flow
 
 ### Gradients for vectorized operations
+
+**Additional resources**:
+- [deeplearning.net](http://www.deeplearning.net/tutorial/mlp.html) tutorial with Theano
+- [ConvNetJS demos](https://cs.stanford.edu/people/karpathy/convnetjs/) for intuitions
+- [Michael Nielsen’s](http://neuralnetworksanddeeplearning.com/chap1.html) tutorials
+
+
+### Setting up the data and the model
+There are three common forms of data preprocessing a data matrix X, where we will assume that X is of size [N x D] (N is the number of data, D is their dimensionality).
+
+**Mean subtraction** is the most common form of preprocessing. It involves subtracting the mean across every individual feature in the data, and has the geometric interpretation of centering the cloud of data around the origin along every dimension. In numpy, this operation would be implemented as: X -= np.mean(X, axis = 0). With images specifically, for convenience it can be common to subtract a single value from all pixels (e.g. X -= np.mean(X)), or to do so separately across the three color channels.
+
+**Normalization** refers to normalizing the data dimensions so that they are of approximately the same scale. There are two common ways of achieving this normalization. One is to divide each dimension by its standard deviation, once it has been zero-centered: (X /= np.std(X, axis = 0)). Another form of this preprocessing normalizes each dimension so that the min and max along the dimension is -1 and 1 respectively. It only makes sense to apply this preprocessing if you have a reason to believe that different input features have different scales (or units), but they should be of approximately equal importance to the learning algorithm. In case of images, the relative scales of pixels are already approximately equal (and in range from 0 to 255), so it is not strictly necessary to perform this additional preprocessing step.
