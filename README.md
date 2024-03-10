@@ -221,7 +221,10 @@ The Softmax classifier is hence minimizing the cross-entropy between the estimat
 ### Modularity: Sigmoid example
 
 ### Patterns in backward flow
-
+add: gradient distributor
+multipliy: gradient switcher
+max: gradient router
+- back propagated to only the largest of the inputs at the node
 ### Gradients for vectorized operations
 
 **Additional resources**:
@@ -323,3 +326,27 @@ Recommended further reading for an interested reader includes:
 **Per-layer regularization**. It is not very common to regularize different layers to different amounts (except perhaps the output layer). Relatively few results regarding this idea have been published in the literature.
 
 **In practice**: It is most common to use a single, global L2 regularization strength that is cross-validated. It is also common to combine this with dropout applied after all layers. The value of p=0.5 is a reasonable default, but this can be tuned on validation data.
+
+Summary:
+- Use ReLU
+- Subtract mean for preprocessing of imagesUse Xavier init for weight initialization
+- Use Batch normalization
+- Bbaysit the learning process
+- Perform hyper parameter optimization
+
+### Mini batch SGD
+Loop:
+- Sample a batch of data
+-  Forward prop it through graph
+  - Get loss
+- Back prop to calculate gradients
+- Update the parameters using the gradients
+
+**Basic view of training a NN:**
+```
+while True:
+  data_batch = dataset.sample_data_batch()
+  loss = network.forward(data_batch)
+  dx = network.backward()
+  x += - learning_rate * dx
+```
