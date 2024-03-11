@@ -334,6 +334,8 @@ Summary:
 - Bbaysit the learning process
 - Perform hyper parameter optimization
 
+Checkout ReLU variants like ELU, leaky ReLU, ...
+
 ### Mini batch SGD
 Loop:
 - Sample a batch of data
