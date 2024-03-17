@@ -221,10 +221,12 @@ The Softmax classifier is hence minimizing the cross-entropy between the estimat
 ### Modularity: Sigmoid example
 
 ### Patterns in backward flow
-add: gradient distributor
-multipliy: gradient switcher
-max: gradient router
-- back propagated to only the largest of the inputs at the node
+- add: gradient distributor
+
+- multipliy: gradient switcher
+- max: gradient router
+
+back propagated to only the largest of the inputs at the node
 ### Gradients for vectorized operations
 
 **Additional resources**:
