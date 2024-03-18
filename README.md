@@ -354,3 +354,5 @@ while True:
   dx = network.backward()
   x += - learning_rate * dx
 ```
+
+## CNN
